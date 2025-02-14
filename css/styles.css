@@ -1,0 +1,175 @@
+/* ------------------STYLES----------------------------- */
+
+
+:root {
+
+    /* --Primary colors------ */
+    --clr-cyan-500: hsl(179, 62%, 43%);
+    --clr-yellow-400: hsl(71, 73%, 54%);
+    --clr-cyan-400: hsla(179, 62%, 43%, 80%);
+
+
+    /* -----Neutral colors------- */
+    --clr-grey-400: hsl(204, 43%, 93%);
+    --clr-grey-700: hsl(218, 22%, 67%);
+    --clr-white-500: hsl(0, 0%, 100%);
+
+
+    --border-radius-default: 0.3em;
+
+}
+
+body {
+    font-family: "Karla", serif;
+    /* font weights = 400, 700*/
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--clr-grey-400);
+
+}
+
+
+/* -----------TYPOGRAPHY---------------- */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+
+
+.card__title {
+    font-size: 1.5rem;
+    color: var(--clr-cyan-500);
+}
+
+.card__subheading {
+    color: var(--clr-yellow-400);
+    font-size: 1.1rem;
+
+}
+
+.card__description {
+    font-size: 1rem;
+    color: var(--clr-grey-700);
+    line-height: 1.7;
+}
+
+.card__secondary,
+.card__secondary-pitch,
+.card__btn,
+.card__monthly {
+    color: var(--clr-grey-400);
+}
+
+.card__items {
+    font-size: 1rem;
+}
+
+.card__price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+/* -------------LAYOUT--------------- */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    width: 90%;
+    padding: 2em 0;
+    transition: transform 0.2s ease;
+
+}
+
+/* ---PRIMARY CARD---- */
+
+
+.card__primary {
+    background-color: var(--clr-white-500);
+    padding: 1.5em 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--border-radius-default) var(--border-radius-default) 0 0;
+}
+
+/* ---SECONDARY CARD--- */
+
+
+/* ---SUBSCRIPTION SECTION--- */
+.card__secondary-info,
+.card__secondary-pitch {
+    padding: 1.5em;
+}
+
+
+.card__secondary-info {
+    background-color: var(--clr-cyan-500);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__price-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1em;
+}
+
+.card__price-body {
+    margin-top: 0.5em;
+}
+
+
+
+.card__btn {
+    background-color: var(--clr-yellow-400);
+    font-weight: 700;
+    color: var(--clr-grey-400);
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    padding: 1em 0;
+    border-radius: var(--border-radius-default);
+    text-decoration: none;
+    margin-top: 2em;
+    transition: 0.2s all ease-in;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.card__btn:hover {
+    background-color: var(--clr-grey-400);
+    color: var(--clr-cyan-500);
+}
+
+.card__btn:focus-visible {
+    outline: 3px solid var(--clr-yellow-400);
+    outline-offset: 2px;
+}
+
+/* -----------WHY US SECTION------ */
+.card__secondary-pitch {
+    background-color: var(--clr-cyan-400);
+    padding: 1.5em;
+    border-radius: 0 0 var(--border-radius-default) var(--border-radius-default)
+}
+
+.card__lists {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 1.5em;
+    font-size: 0.9rem;
+}

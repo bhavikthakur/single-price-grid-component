@@ -1,0 +1,58 @@
+/* ---------MEDIA QUERIES--------------- */
+
+
+@media (min-width:650px) {
+    .card {
+        padding: 0;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .card__primary {
+        padding: 2.5em 2.5em;
+        gap: 0;
+    }
+
+    .card__subheading {
+        margin-top: 1.5em;
+    }
+
+    .card__description {
+        margin-top: 0.5em;
+    }
+
+    .card__secondary {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card__secondary-pitch,
+    .card__secondary-info {
+        padding: 2.5em 2.5em;
+    }
+
+    .card__secondary-info {
+        border-bottom-left-radius: var(--border-radius-default);
+        flex: 1;
+
+
+    }
+
+    .card__price-info {
+        margin-top: 1em;
+    }
+
+    .card__btn {
+        margin-top: auto;
+    }
+
+    .card__secondary-pitch {
+        border-bottom-left-radius: 0;
+        flex: 1
+    }
+
+    .card__lists {
+        margin-top: 1em;
+    }
+}
