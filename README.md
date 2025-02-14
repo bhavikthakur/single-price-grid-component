@@ -3,22 +3,23 @@
 A clean, responsive, and modern pricing component built with HTML & CSS. Designed to be simple yet effective, using BEM methodology for maintainable code and CSS Grid & Flexbox for optimal layout control.
 
 ## 🛰 Live Demo  
-🔗 [View Project](https://bhavikthakur.github.io/stats-preview-card/)  
+🔗 [View Project](https://bhavikthakur.github.io/single-price-grid-component/)  
 
 ## 📸 Preview  
 ![Project Screenshot](./design/desktop-view.png)  
 ![Project Screenshot](./design/mobile-view.png)   
 
 ## 📌 Features  
-✔️ Fully responsive design for mobile, tablet, and desktop. <br>
-✔️ Optimized image loading with picture element. <br>
-✔️ Overlay effect on the image using mix-blend-mode. <br>
+✔️ Fully Responsive – Works on all screen sizes. <br>
+✔️ Modern UI – Clean typography and structured layout. <br>
+✔️ BEM Naming – Easy to read and maintain. <br>
 ✔️ Uses modern typography and color contrasts for readability. <br>
+✔️ Uses modern techniques like Flexbox and Grid layout. <br>
 
 ## 🛠️ Built With  
 - **HTML5** - Semantic markup for structure.   <br>
 - **CSS3** - Modern styling with a mobile-first approach.  <br>
-- **Google Fonts** - Used Inter and Lexend Deca for typography.    <br>
+- **Google Fonts** - Used Karla typography.    <br>
 - **CSS  Media Queries** - Ensured responsiveness for different screen sizes.
 
 ## 📂 Folder Structure  
@@ -36,15 +37,19 @@ A clean, responsive, and modern pricing component built with HTML & CSS. Designe
 ## 🔧 Setup & Usage  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/social-links-profile.git    
+   https://github.com/bhavikthakur/single-price-grid-component.git   
 2. Open index.html in your browser. 
 
 ## 🔓 Lessons Learned  
-Challenge: Implementing the overlay color effect on the image <br>
-Solution: Used mix-blend-mode: multiply on a ::after pseudo-element. <br>
+📱 Responsive Design <br>
+✔ Mobile First Approach <br>
+✔ Grid-based Layout for structured sections <br>
+✔ Optimized Typography & Spacing <br>
 
-Challenge: Ensuring the layout remained intact on different screen sizes.  <br>
-Solution: Used flexbox and media queries to adjust content dynamically.  <br>
+ ## To-Do (Optional Enhancements)
+✔ Add Dark Mode <br>
+✔ Improve Animations for smooth interactions <br>
+✔ Convert to SCSS for better scalability <br>
 
 
 ## 🤝 Connect With Me  
